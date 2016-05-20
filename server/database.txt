@@ -1,0 +1,8 @@
+CREATE TABLE employees (
+    first_name varchar (40),
+    last_name varchar (40),
+    emp_id integer,
+    job_title varchar (30),
+    annual_salary integer,
+    monthly_salary numeric
+);

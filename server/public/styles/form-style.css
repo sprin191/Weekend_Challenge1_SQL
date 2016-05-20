@@ -1,0 +1,18 @@
+h1 {
+  color: teal;
+}
+
+#container {
+  border: 1px solid blue;
+  padding: 10px;
+  margin: 30px;
+}
+
+.person {
+  border: 2px solid black;
+  padding: 2px;
+}
+
+.clicked {
+  border-color: red;
+}

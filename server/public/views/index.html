@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>jQuery Forms</title>
+      <link rel="stylesheet" href="/styles/form-style.css" />
+      <script type="text/javascript" src="/vendor/jquery-1.12.3.min5.js"></script>
+      <script type="text/javascript" src="/scripts/forms.js"></script>
+  </head>
+  <body>
+    <h1>jQuery Forms</h1>
+    <div>
+      <form id="employeeInfo">
+        <label for="employeeFirstName">First Name:</label>
+        <input type="text" id="employeeFirstName" name="employeeFirstName" />
+
+        <label for="employeeLastName">Last Name:</label>
+        <input type="text" id="employeeLastName" name="employeeLastName" />
+
+        <label for="employeeID">Employee ID:</label>
+        <input type="text" id="employeeID" name="employeeID" />
+
+        <label for="jobTitle">Job Title:</label>
+        <input type="text" id="jobTitle" name="jobTitle" />
+
+        <label for="annualSalary">Annual Salary (no commas): $</label>
+        <input type="text" id="annualSalary" name="annualSalary" />
+
+        <button id="submitEmployee">Submit</button>
+      </form>
+    </div>
+    <div id="container">
+      <h2>Employee Data</h2>
+    </div>
+    <div id="total">
+    </div>
+  </body>
+</html>
